@@ -1,0 +1,5 @@
+Testing swap: {a|b|c_long_item|d} AFTERMATH
+
+Testing scene change: {GO@test2}
+
+	Hello!
