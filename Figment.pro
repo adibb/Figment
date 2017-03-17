@@ -23,28 +23,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 
-SOURCES += main.cpp\
-           mainwindow.cpp \
-           textswap.cpp \
-    scenewindow.cpp \
-    parser.cpp \
-    sceneswap.cpp \
-    swapitem.cpp \
-    textfitlabel.cpp
+SOURCES +=      sources/*.cpp
 
-HEADERS  += mainwindow.h \
-            textswap.h \
-            ui_mainwindow.h \
-    scenewindow.h \
-    parser.h \
-    sceneswap.h \
-    swapitem.h \
-    textfitlabel.h
+HEADERS  +=     headers/*.h
 
-FORMS    += mainwindow.ui
+FORMS    +=     mainwindow.ui
 
-DISTFILES += \
-    scenes/test2.txt \
-    static/figment_logo.png \
-    images/figment_logo.png \
-    scenes/start.txt
+DISTFILES +=    images/figment_logo.png \
+                scenes/*.txt
